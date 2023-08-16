@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """ Authentication helper class
 """
+import uuid
 from bcrypt import hashpw, gensalt, checkpw
 from db import DB
 from user import User
