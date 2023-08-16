@@ -77,5 +77,4 @@ class Auth:
         """
         Destroys a session and update the user's session ID to None.
         """
-        self._db.update_session(user_id, session.id=None)
         return None
